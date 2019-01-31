@@ -1,0 +1,47 @@
+h1 {
+    color: blue;
+}
+
+body {
+    background-color:fuchsia;
+
+}
+
+h1{
+    
+color:chartreuse;
+    
+}
+h2 {
+    color: azure;
+}
+
+h4 {
+    color:aliceblue;
+    
+}
+
+#col {
+    font-size: 3cm;
+    background-color: deeppink;
+    width: 9cm;
+}
+
+li {
+    color:aliceblue;
+}
+
+.ced {
+    border-radius: 50%;
+}
+
+#leftcol {
+     background-color:darkorange;
+    height: 100vh;
+    margin-right: 50
+}
+
+#rightcol{
+    margin-right: 50
+        
+}
