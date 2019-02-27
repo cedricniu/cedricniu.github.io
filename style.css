@@ -1,47 +1,87 @@
-h1 {
-    color: blue;
+body
+{
+    background-color: lightpink;
+}
+h3 {
+    color: indianred;
+    text-transform: capitalize;
+}
+.container{
+    background-color: lavender;
+}
+.row{
+    margin: auto;
+}
+#header{
+    border: solid;
+    border-color: #888888;
+    background-color: white;
+}
+#row a {
+  display: block;
+  width: 60px;
+}
+#navBar {
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 1;
+    background-color: rgb(153, 153, 153);
+}
+#body{
+    border: solid;
+    border-color: black;
+    margin: 10px;
+    padding: 10px;
+}
+.col a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    overflow: auto;
 }
 
-body {
-    background-color:fuchsia;
-
+.col a:hover {
+  background-color: #111;
 }
-
-h1{
-    
-color:chartreuse;
-    
-}
-h2 {
-    color: azure;
-}
-
-h4 {
-    color:aliceblue;
-    
-}
-
-#col {
-    font-size: 3cm;
-    background-color: deeppink;
-    width: 9cm;
-}
-
-li {
-    color:aliceblue;
-}
-
-.ced {
+#dp {
     border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    right: 0;
+}
+#To {
+    padding: 10px;
+    left: 0px;
+    text-align: left;
+}
+#by {
+    padding: 10px;
+    right: 0;
+    text-align: right;
+}
+#tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
 }
 
-#leftcol {
-     background-color:darkorange;
-    height: 100vh;
-    margin-right: 50
+#message{
+    margin: 10px;
+    padding: 10px;
 }
+#tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
 
-#rightcol{
-    margin-right: 50
-        
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
 }
